@@ -15,9 +15,8 @@ extern "C" {
  * Method:    stringFromJNI
  * Signature: ()Ljava/lang/String;
  */
-JNIEXPORT jstring JNICALL Java_test_stringFromJNI
-  (JNIEnv *env, jobject)
-  {
+JNIEXPORT jstring JNICALL Java_com_jaccen_jni_test_stringFromJNI(JNIEnv *env, jobject thiz) {
+
      std::string hello = "Hello from C++";
          return env->NewStringUTF(hello.c_str());
   }
