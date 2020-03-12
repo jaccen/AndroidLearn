@@ -1,0 +1,2 @@
+1、MySurfaceView主要运用SurfaceView来实现在屏幕上画一个圆
+2、MyGLSurfaceView主要运用SurfaceView来实现在屏幕绘制一个纹理贴图
