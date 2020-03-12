@@ -20,6 +20,12 @@ android {
             }
         }
     }
+    android.libraryVariants.all { variant ->
+        variant.outputs.all {
+            def fileName = "test.aar"
+            outputFileName = fileName
+        }
+    }
 
     buildTypes {
         release {

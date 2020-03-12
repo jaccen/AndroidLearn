@@ -6,10 +6,15 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.jaccen.androidlearn.SurfaceView.MyGLSurfaceView;
 import com.jaccen.androidlearn.SurfaceView.MySurfaceView;
+import com.jaccen.androidlearn.fragment.TopFragment;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.fragment.app.Fragment;
 
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
+import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -34,16 +39,18 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
 
-        //Test GLSurfaceView
         // 隐藏状态栏
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         // 把Activity的标题去掉
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-
+        //(1)Test GLSurfaceView
         // 设置布局
         this.setContentView(new MyGLSurfaceView(this));
+
+       // (2)测试Fragment
+
     }
 
     @Override

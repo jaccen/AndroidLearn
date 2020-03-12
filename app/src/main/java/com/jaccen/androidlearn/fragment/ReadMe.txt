@@ -1,0 +1,6 @@
+创建Fragment两种方式
+
+1、在activity布局文件里声明fragment
+
+
+2、通过java代码将fragment添加到已存的ViewGroup中
