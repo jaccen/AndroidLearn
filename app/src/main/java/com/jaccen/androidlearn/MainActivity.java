@@ -4,6 +4,7 @@ import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
+import com.jaccen.androidlearn.SurfaceView.MyGLSurfaceView;
 import com.jaccen.androidlearn.SurfaceView.MySurfaceView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
 
         // 设置布局
-        this.setContentView(new MySurfaceView(this));
+        this.setContentView(new MyGLSurfaceView(this));
     }
 
     @Override
