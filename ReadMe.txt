@@ -2,3 +2,5 @@
   主要记录Android的一些基础应用。同步csdn：https://blog.csdn.net/jaccen2012/article/details/104816364
 
 主要包括各种View、camera、so、aar、opengl、opencv等
+
+Email：jaccen2007@163.com
