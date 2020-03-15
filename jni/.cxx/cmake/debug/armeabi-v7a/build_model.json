@@ -1,0 +1,70 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/jaccen/Desktop/AndroidLearn",
+      "sdkFolder": "/Users/jaccen/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/jaccen/Desktop/AndroidLearn/jni/build/intermediates",
+      "gradleModulePathName": ":jni",
+      "moduleRootFolder": "/Users/jaccen/Desktop/AndroidLearn/jni",
+      "makeFile": "/Users/jaccen/Desktop/AndroidLearn/jni/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/jaccen/Desktop/AndroidLearn/.cxx",
+      "cxxFolder": "/Users/jaccen/Desktop/AndroidLearn/jni/.cxx",
+      "ndkFolder": "/Users/jaccen/Library/Android/sdk/ndk/21.0.6113669",
+      "ndkVersion": "21.0.6113669",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "debug",
+    "soFolder": "/Users/jaccen/Desktop/AndroidLearn/jni/build/intermediates/cmake/debug/lib",
+    "objFolder": "/Users/jaccen/Desktop/AndroidLearn/jni/build/intermediates/cmake/debug/obj",
+    "jsonFolder": "/Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cmake/debug",
+    "gradleBuildOutputFolder": "/Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 21,
+  "cxxBuildFolder": "/Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cmake/debug/armeabi-v7a",
+  "jsonFile": "/Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cxx/debug/armeabi-v7a",
+  "objFolder": "/Users/jaccen/Desktop/AndroidLearn/jni/build/intermediates/cmake/debug/obj/armeabi-v7a",
+  "buildCommandFile": "/Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cmake/debug/armeabi-v7a/build_command.txt",
+  "buildOutputFile": "/Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cmake/debug/armeabi-v7a/build_output.txt",
+  "modelOutputFile": "/Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cmake/debug/armeabi-v7a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cxx/debug/armeabi-v7a/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cxx/debug/armeabi-v7a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cxx/debug/armeabi-v7a/build_generation_state.json",
+    "cacheKeyFile": "/Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cxx/debug/armeabi-v7a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cxx/debug/armeabi-v7a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cxx/debug/armeabi-v7a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cxx/debug/armeabi-v7a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cmake/debug/armeabi-v7a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cmake/debug/armeabi-v7a/compile_commands.json"
+}

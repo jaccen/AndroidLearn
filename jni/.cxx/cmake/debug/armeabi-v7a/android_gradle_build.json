@@ -1,0 +1,44 @@
+
+{
+	"buildFiles" : [ "/Users/jaccen/Desktop/AndroidLearn/jni/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/jaccen/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cmake/debug/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"my-native-lib-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "my-native-lib",
+			"buildCommand" : "/Users/jaccen/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cmake/debug/armeabi-v7a --target my-native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/jaccen/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/jaccen/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dmy_native_lib_EXPORTS -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/jaccen/Desktop/AndroidLearn/jni/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/jaccen/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/jaccen/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dmy_native_lib_EXPORTS -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/jaccen/Desktop/AndroidLearn/jni/src/main/cpp/hello.cpp",
+					"workingDirectory" : "/Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/jaccen/Desktop/AndroidLearn/jni/build/intermediates/cmake/debug/obj/armeabi-v7a/libmy-native-lib.so",
+			"toolchain" : "15307517696075063237"
+		}
+	},
+	"toolchains" : 
+	{
+		"15307517696075063237" : 
+		{
+			"cCompilerExecutable" : "/Users/jaccen/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/jaccen/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

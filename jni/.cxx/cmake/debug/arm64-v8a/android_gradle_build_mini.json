@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/Users/jaccen/Desktop/AndroidLearn/jni/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/jaccen/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cmake/debug/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "my-native-lib-Debug-arm64-v8a": {
+      "artifactName": "my-native-lib",
+      "buildCommand": "/Users/jaccen/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cmake/debug/arm64-v8a --target my-native-lib",
+      "abi": "arm64-v8a",
+      "output": "/Users/jaccen/Desktop/AndroidLearn/jni/build/intermediates/cmake/debug/obj/arm64-v8a/libmy-native-lib.so"
+    }
+  }
+}

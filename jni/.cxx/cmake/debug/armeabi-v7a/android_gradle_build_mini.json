@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/Users/jaccen/Desktop/AndroidLearn/jni/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/jaccen/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "my-native-lib-Debug-armeabi-v7a": {
+      "artifactName": "my-native-lib",
+      "buildCommand": "/Users/jaccen/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cmake/debug/armeabi-v7a --target my-native-lib",
+      "abi": "armeabi-v7a",
+      "output": "/Users/jaccen/Desktop/AndroidLearn/jni/build/intermediates/cmake/debug/obj/armeabi-v7a/libmy-native-lib.so"
+    }
+  }
+}
