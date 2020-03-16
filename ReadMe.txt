@@ -3,6 +3,9 @@
 
 主要包括各种View、camera、so、aar、opengl、opencv、slam、ar等
 
+不断更新中。。。。
+Still update。。。
+
 Email：jaccen2007@163.com
 
 
