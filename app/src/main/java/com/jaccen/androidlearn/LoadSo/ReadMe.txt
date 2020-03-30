@@ -232,3 +232,37 @@ dependencies {
     ...
 }
 
+引用.so文件
+方法一：
+将不同CPU架构的so文件拷贝到libs目录下，然后在gradle文件的android节点下添加：
+
+	sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+1
+2
+3
+4
+5
+defaultConfig节点下添加：
+
+	ndk {
+            //设置支持的SO库架构（开发者可以根据需要，选择一个或多个平台的so）
+            abiFilters "armeabi", "armeabi-v7a", "arm64-v8a", "x86", "arm64-v8a", "x86_64"
+        }
+1
+2
+3
+4
+
+sync一下gradle，引入完成。
+
+方法二：
+  在 src/main/ 目录下创建文件夹 jniLibs ，然后将so文件复制到这个目录下即可，工程会自动加载src/main/jniLibs目录下的so动态库。
+1
+如图：
+
+
+

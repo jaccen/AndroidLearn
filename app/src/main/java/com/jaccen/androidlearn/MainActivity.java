@@ -2,27 +2,20 @@ package com.jaccen.androidlearn;
 
 import android.os.Bundle;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 import com.jaccen.androidlearn.SurfaceView.MyGLSurfaceView;
-import com.jaccen.androidlearn.SurfaceView.MySurfaceView;
-import com.jaccen.androidlearn.fragment.TopFragment;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.fragment.app.Fragment;
 
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
-import android.os.Bundle;
-import android.view.View;
+import android.os.Environment;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.Window;
 import android.view.WindowManager;
 
-public class MainActivity extends AppCompatActivity {
+import VIO.slamar.NativeHelper;
 
+public class MainActivity extends AppCompatActivity {
+    private NativeHelper nativeHelper;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

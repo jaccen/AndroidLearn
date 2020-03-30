@@ -2,3 +2,13 @@
 2	359	0	CMakeFiles/my-native-lib.dir/src/main/cpp/hello.cpp.o	f17c7ba4bead404e
 1	361	0	CMakeFiles/my-native-lib.dir/src/main/cpp/native-lib.cpp.o	ba08af706f577a34
 361	571	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libmy-native-lib.so	244bd53ae57da105
+2	558	0	CMakeFiles/my-native-lib.dir/src/main/cpp/hello.cpp.o	f17c7ba4bead404e
+2	558	0	CMakeFiles/my-native-lib.dir/src/main/cpp/native-lib.cpp.o	ba08af706f577a34
+558	816	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libmy-native-lib.so	244bd53ae57da105
+0	339	0	CMakeFiles/my-native-lib.dir/src/main/cpp/native-lib.cpp.o	ba08af706f577a34
+339	510	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libmy-native-lib.so	244bd53ae57da105
+2	582	0	CMakeFiles/my-native-lib.dir/src/main/cpp/native-lib.cpp.o	ba08af706f577a34
+4	583	0	CMakeFiles/my-native-lib.dir/src/main/cpp/hello.cpp.o	f17c7ba4bead404e
+583	906	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libmy-native-lib.so	244bd53ae57da105
+3	675	0	CMakeFiles/my-native-lib.dir/src/main/cpp/native-lib.cpp.o	ba08af706f577a34
+675	1188	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libmy-native-lib.so	244bd53ae57da105
