@@ -18,27 +18,27 @@
 			[
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/jaccen/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/jaccen/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dmy_native_lib_EXPORTS -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/jaccen/Library/Android/sdk/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jaccen/Library/Android/sdk/android-ndk-r16b/sysroot  -Dmy_native_lib_EXPORTS -I../../../../src/main/cpp/include -isystem /Users/jaccen/Library/Android/sdk/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/jaccen/Library/Android/sdk/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/jaccen/Library/Android/sdk/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/jaccen/Library/Android/sdk/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
 					"src" : "/Users/jaccen/Desktop/AndroidLearn/jni/src/main/cpp/native-lib.cpp",
 					"workingDirectory" : "/Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cmake/debug/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/jaccen/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/jaccen/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dmy_native_lib_EXPORTS -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/jaccen/Library/Android/sdk/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jaccen/Library/Android/sdk/android-ndk-r16b/sysroot  -Dmy_native_lib_EXPORTS -I../../../../src/main/cpp/include -isystem /Users/jaccen/Library/Android/sdk/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/jaccen/Library/Android/sdk/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/jaccen/Library/Android/sdk/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/jaccen/Library/Android/sdk/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
 					"src" : "/Users/jaccen/Desktop/AndroidLearn/jni/src/main/cpp/hello.cpp",
 					"workingDirectory" : "/Users/jaccen/Desktop/AndroidLearn/jni/.cxx/cmake/debug/arm64-v8a"
 				}
 			],
 			"output" : "/Users/jaccen/Desktop/AndroidLearn/jni/build/intermediates/cmake/debug/obj/arm64-v8a/libmy-native-lib.so",
-			"toolchain" : "15307517696075063237"
+			"toolchain" : "3745117247333474030"
 		}
 	},
 	"toolchains" : 
 	{
-		"15307517696075063237" : 
+		"3745117247333474030" : 
 		{
-			"cCompilerExecutable" : "/Users/jaccen/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
-			"cppCompilerExecutable" : "/Users/jaccen/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+			"cCompilerExecutable" : "/Users/jaccen/Library/Android/sdk/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/jaccen/Library/Android/sdk/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
 		}
 	}
 }

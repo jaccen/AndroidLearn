@@ -1,2 +1,3 @@
 include ':app', ':jni'
 rootProject.name='AndroidLearn'
+include ':openCVLibrary345'

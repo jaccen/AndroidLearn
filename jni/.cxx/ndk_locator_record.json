@@ -1,5 +1,5 @@
 {
-  "ndkFolder": "/Users/jaccen/Library/Android/sdk/ndk/21.0.6113669",
+  "ndkFolder": "/Users/jaccen/Library/Android/sdk/android-ndk-r16b",
   "messages": [
     {
       "level": "INFO",
@@ -7,7 +7,7 @@
     },
     {
       "level": "INFO",
-      "message": "ndk.dir in local.properties is not set"
+      "message": "ndk.dir in local.properties is /Users/jaccen/Library/Android/sdk/android-ndk-r16b"
     },
     {
       "level": "INFO",
@@ -19,6 +19,10 @@
     },
     {
       "level": "INFO",
+      "message": "Considering /Users/jaccen/Library/Android/sdk/android-ndk-r16b by ndk.dir"
+    },
+    {
+      "level": "INFO",
       "message": "Considering /Users/jaccen/Library/Android/sdk/ndk-bundle in SDK ndk-bundle folder"
     },
     {
@@ -27,11 +31,7 @@
     },
     {
       "level": "INFO",
-      "message": "Rejected /Users/jaccen/Library/Android/sdk/ndk-bundle in SDK ndk-bundle folder because that location has no source.properties"
-    },
-    {
-      "level": "INFO",
-      "message": "No user requested version, choosing /Users/jaccen/Library/Android/sdk/ndk/21.0.6113669 which is version 21.0.6113669"
+      "message": "Found requested ndk.dir (/Users/jaccen/Library/Android/sdk/android-ndk-r16b) which has version 16.1.4479499"
     }
   ]
 }
